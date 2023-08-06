@@ -506,8 +506,9 @@ Task 1: Launching VPC and creating subnets
 ==========================================
 
 cd /home/ubuntu/
-wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/autoscaling_lab.zip
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/vpc_lab.zip
 unzip vpc_lab.zip
+
 
 cd vpc_lab.zip
 ls
@@ -686,9 +687,9 @@ Task 1: Create ASG
 -------------------
 cd /home/ubuntu/
 
-wget http://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/lab_14_autoscaling.tar.gz
-tar -zxvf lab_14_autoscaling.tar.gz
-cd lab_14_autoscaling/
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/autoscaling_lab.zip
+unzip autoscaling_lab.zip	
+cd autoscaling_lab/
 
 ls
 vi autoscaling.tf
