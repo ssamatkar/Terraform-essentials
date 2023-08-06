@@ -506,10 +506,10 @@ Task 1: Launching VPC and creating subnets
 ==========================================
 
 cd /home/ubuntu/
-wget http://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/lab_10_vpc_v0.13.tar.gz
-tar -xvf lab_10_vpc_v0.13.tar.gz
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/autoscaling_lab.zip
+unzip vpc_lab.zip
 
-cd lab_10_vpc/
+cd vpc_lab.zip
 ls
 
 cat vpc.tf
