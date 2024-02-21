@@ -28,8 +28,8 @@ wget https://releases.hashicorp.com/terraform/1.2.8/terraform_1.2.8_linux_amd64.
 unzip terraform_1.2.8_linux_amd64.zip
 
 #new version
-wget https://releases.hashicorp.com/terraform/1.4.0/terraform_1.4.0_linux_amd64.zip
-unzip terraform_1.4.0_linux_amd64.zip
+wget https://releases.hashicorp.com/terraform/1.7.3/terraform_1.7.3_linux_amd64.zip
+unzip terraform_1.7.3_linux_amd64.zip
 
 ls
 sudo mv terraform /usr/local/bin
