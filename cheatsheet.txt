@@ -773,7 +773,7 @@ variable "AWS_REGION" {
 
 
 ###################################
-Lab 9 : Creating AWS resources using terraform modules
+# Lab 9 : Creating AWS resources using terraform modules
 ###################################
 
 cd /home/ubuntu/
@@ -876,7 +876,7 @@ terraform destroy
 
 
 ####################################################################
-Lab 10: Terraform Cloud
+# Lab 10: Terraform Cloud
 ###################################################################
 
 Task 1: create a terraform cloud account
@@ -940,7 +940,7 @@ Verify that the resource has been created in your AWS Console
 Task 5: Terminate the resources 
 ====================================================================================
 On the settings tab, click on Destruction and Deletion 
-Now, click onâ€¯Create Destroyâ€¯Plan. 
+Now, click on Create Destroy Plan. 
 Provide the Workspace name and click on Queue Destroy plan 
 Now you will notice that queue is scheduled. The deletion queue has two stages. Plan and apply (to delete the infra) 
 Approve to start the delete operation by clicking Confirm & Apply
